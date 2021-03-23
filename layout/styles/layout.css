@@ -318,26 +318,26 @@ input:focus, textarea:focus, *:required:focus{border-color:#82B7DF;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
-.overlay.dark::after{color:inherit; background-color:rgba(37,100,146,.85)/* #256492 */;}
+.overlay.dark::after{color:inherit;}
 .overlay.light::after{background-color:rgba(130,183,223,.65)/* #82B7DF */;}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#82B7DF; border-color:#82B7DF;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
-.imgover:hover::before{background:rgba(37,100,146,.35)/* #256492 */;}
+.imgover:hover::before{background:rgba(37,100,146,.35)/* #c2a804 */;}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 
-.heading.underline::after{background-color:#256492;}
+.heading.underline::after{background-color:#c2a804;}
 
 .logoname{color:inherit;}
-.logoname i{color:#256492;}
+.logoname i{color:#c2a804;}
 
 
 /* Rows */
-.row0{color:#474747; background-color:#FFFFFF;}
-.row1{color:#474747; background-color:#FFFFFF; border-color:rgba(0,0,0,.1);}
+/*.row0{color:#474747; background-color:#FFFFFF;}*/
+/*.row1{color:#474747; background-color:#FFFFFF; border-color:rgba(0,0,0,.1);}*/
 .row2{color:#474747; background-color:#F4F4F4;}
-.row3{color:#474747; background-color:#FFFFFF; border-color:rgba(0,0,0,.1);}
+/*.row3{color:#474747; background-color:#FFFFFF; border-color:rgba(0,0,0,.1);}*/
 .row4{color:#A8A8A8; background-color:#1C1D1F; border-color:rgba(255,255,255,.1);}
 .row5, .row5 a{color:#A8A8A8; background-color:#151618;}
 
@@ -352,17 +352,17 @@ input:focus, textarea:focus, *:required:focus{border-color:#82B7DF;}
 
 
 /* Services */
-#services li article{color:#FFFFFF; background-color:#82B7DF;}
-#services li:nth-child(even) article{background-color:#256492;}
+#services li article{color:#FFFFFF; background-color:#fee33c;}
+#services li:nth-child(even) article{background-color:#c2a804;}
 #services li article a{color:inherit;}
 #services li article > a > i{color:#474747; background:#FFFFFF; border-color:rgba(0,0,0,.1); box-shadow:2px 3px 0px 0px rgba(0,0,0,.3);}
 #services li article:hover > a > i{color:#82B7DF;}
-#services li:nth-child(odd) article:hover footer i{color:#256492;}
+#services li:nth-child(odd) article:hover footer i{color:#c2a804;}
 #services li:nth-child(even) article:hover footer i{color:#82B7DF;}
 
 
 /* Click to Action */
-#cta .btn{color:#256492; background-color:#FFFFFF; border-color:#256492;}
+#cta .btn{color:#c2a804; background-color:#FFFFFF; border-color:#c2a804;}
 #cta .btn:hover{color:inherit; background-color:transparent; border-color:inherit;}
 
 
